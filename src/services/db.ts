@@ -8,7 +8,7 @@ export const openConnection = () => {
   return db;
 };
 
-export const dbQuerry = (query: string, params?: any[]) => {
+export const dbQuery = (query: string, params?: any[]) => {
   let db = openConnection();
   return new Promise<any[]>((resolve, reject) => {
     db.all(query, params, (err, rows) => {
