@@ -16,3 +16,7 @@ export const insertProduct = async (product: Product) => {
   );
   return retorno[0].Id as number | undefined;
 };
+
+export const productModel = {
+  insertProduct,
+};
