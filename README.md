@@ -1,5 +1,9 @@
 # API_node
 
+<center>
+<img src="/node.png" alt="node" width="200"/>
+</center>
+
 ## Criando API REST com TypeScript + NodejS, + SQLite CRUD Completo.
 
 ### Comandos
