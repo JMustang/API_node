@@ -13,3 +13,18 @@
 3. yarn add express @types/express => adicionando o express e suas tipagens
 4. yarn add sqlite3 @types/sqlite3 => adicionando o sqlite3 e suas tipagens
 5. yarn add dotenv @types/dotenv => adicionando o dotenv e suas tipagens
+
+### express
+
+```js
+const express require ('express')
+const app = express()
+const PORT = 3000
+
+app.get('/', (req, res) => {
+    res.send('Holla')
+    app.listen(PORT, () =>{
+        console.log(`Servidor rodando na porta http://localhost:${PORT}`)
+    })
+})
+```
