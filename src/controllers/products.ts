@@ -9,7 +9,8 @@ const insertProduct = (req: Request, res: Response) => {
 
     if (!product.name) return badRequest(res, "Product name");
 
-    if (parseFloat(product.price) > 0) return badRequest(res, "Product price");
+    if (!(parseFloat(product.price) > 0))
+      return badRequest(res, "Product price");
   }
 
   const product = req.body as Product;

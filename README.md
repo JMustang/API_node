@@ -13,6 +13,7 @@
 3. yarn add express @types/express => adicionando o express e suas tipagens
 4. yarn add sqlite3 @types/sqlite3 => adicionando o sqlite3 e suas tipagens
 5. yarn add dotenv @types/dotenv => adicionando o dotenv e suas tipagens
+6. yarn add body-parser @types/body-parser => adicionando o body-parser
 
 ### express
 
